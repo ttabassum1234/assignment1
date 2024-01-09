@@ -1,0 +1,76 @@
+.banner {
+    position: relative;
+    width: 1320px; /* Adjust width */
+    height: 600px; /* Adjust height */
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #030008 100%, rgba(2, 0, 8, 0) 100%);
+  }
+  
+  .banner img {
+    width: 100%; /* Use 100% width to make it responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Apply border-radius to the image as well */
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%; /* Adjust the top position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-direction: column; /* Stack items vertically within the flex container */
+  }
+  
+  .first-text,
+  .second-text {
+    color: #fff;
+    font-family: Merriweather;
+  }
+  
+  .first-text {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  
+  .second-text {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 10px; /* Add some margin between the two lines */
+  }
+  
+  .second-text span {
+    display: block; /* Make the <span> a block element to move it to the next line */
+  }
+  .deals {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin from the banner */
+  }
+  
+  .discount {
+    color: #f00;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .deal-text {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .new-year-photo {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    object-fit: cover;
+    background: rgb(250, 247, 247) 50% / cover no-repeat;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
